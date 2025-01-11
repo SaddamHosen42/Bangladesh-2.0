@@ -60,6 +60,10 @@ body {
     padding: 13px 26px;
 }
 
+.text-center {
+    text-align: center;
+}
+
 /* nav bar styles */
 .nav-btn {
     box-sizing: border-box;
@@ -230,4 +234,58 @@ nav {
 
 .news-card-content .news-pera {
     margin-bottom: 32px;
+}
+
+/* donate section styles */
+.donate-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 80px 0;
+    height: 464px;
+}
+
+.donate-cart-container {
+    display: flex;
+    gap: 24px;
+    margin: 32px 0;
+}
+
+.donate-cart {
+    width: 240px;
+    height: 128px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    text-align: center;
+    padding: 40px 0;
+}
+
+.other-donate input[type="text"] {
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
+    padding: 20px 40px;
+    margin: 32px 124px;
+    width: 1032px;
+    height: 64px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+
+}
+
+.donate-input {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.3);
+}
+
+.bg-secondary {
+    background: rgb(198, 228, 214);
+}
+
+.donate-text-color {
+    color: rgba(14, 14, 14, 0.8);
 }
