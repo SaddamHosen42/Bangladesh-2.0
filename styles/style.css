@@ -84,7 +84,7 @@ body {
 }
 
 .btn-primary:hover {
-    background: rgb(131, 10, 191);
+    background-color: #5CB338;
     color: rgb(255, 255, 255);
 }
 
@@ -366,4 +366,51 @@ footer {
     font-size: 32px;
     font-weight: 700;
     line-height: 38px;
+}
+
+/* opinion-section styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 60px;
+}
+
+td {
+    text-align: left;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 24px;
+    font-size: 16px;
+    font-weight: 500;
+}
+select{
+    font-size: 16px;
+    font-weight: 600;
+}
+th {
+    padding: 24px;
+}
+
+thead tr {
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+thead {
+    background: rgb(198, 228, 214);
+}
+
+.opinion-section form {
+    padding: 32px;
+}
+
+#opinion {
+    box-sizing: border-box;
+    border: 1px solid rgb(14, 14, 14);
+    border-radius: 4px;
+    background: rgba(9, 161, 92, 0.15);
+    padding: 12px;
+}
+
+.opinion {
+    display: flex;
+    justify-content: center;
 }
